@@ -1,0 +1,200 @@
+{
+  "@@locale": "he",
+  "appTitle": "ניהול מספרה",
+  "employeesTitle": "עובדים",
+  "noEmployeesYet": "אין עובדים עדיין.",
+  "addEmployeeTitle": "הוסף עובד",
+  "employeeStatusTitle": "סטטוס עובד",
+  "edit": "עריכה",
+  "delete": "מחיקה",
+  "save": "שמירה",
+  "cancel": "ביטול",
+  "create": "צור",
+  "clear": "נקה",
+  "followDevice": "לפי המכשיר",
+  "english": "אנגלית",
+  "hebrew": "עברית",
+  "deleteEmployeesTitle": "מחיקת עובדים",
+  "deleteEmployeesConfirm": "למחוק {count} עובד(ים) שנבחרו?",
+  "@deleteEmployeesConfirm": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "editEmployeeTitle": "עריכת עובד",
+  "firstNameLabel": "שם פרטי",
+  "lastNameLabel": "שם משפחה",
+  "idNumberLabel": "מספר מזהה",
+  "phoneLabel": "טלפון",
+  "statusLabel": "סטטוס",
+  "activeSessionLabel": "סשן פעיל",
+  "startedAtLabel": "התחיל ב",
+  "idNumberDigitsOnlyLabel": "מספר מזהה (ספרות בלבד)",
+  "phoneDigitsOnlyLabel": "טלפון (ספרות בלבד)",
+  "idCannotBeChanged": "לא ניתן לשינוי",
+  "noneValue": "(אין)",
+  "notAvailableValue": "(לא זמין)",
+  "noNameValue": "(ללא שם)",
+  "noIdValue": "(אין מזהה)",
+  "noPhoneValue": "(אין טלפון)",
+  "inviteCodeText": "קוד הזמנה: {code}",
+  "@inviteCodeText": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "inviteCodeHelp": "תן את הקוד לעובד.",
+  "employeeNotFound": "העובד לא נמצא.",
+  "errorFirstLastRequired": "חובה להזין שם פרטי ושם משפחה.",
+  "errorIdRequired": "חובה להזין מספר מזהה.",
+  "errorIdDigitsOnly": "מספר מזהה חייב להכיל ספרות בלבד.",
+  "errorPhoneRequired": "חובה להזין טלפון.",
+  "errorPhoneDigitsOnly": "טלפון חייב להכיל ספרות בלבד.",
+  "errorInviteCodeFailed": "יצירת קוד ההזמנה נכשלה. נסה שוב.",
+  "errorWithMessage": "שגיאה: {message}",
+  "@errorWithMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "statusIdle": "פנוי",
+  "statusWorking": "בעבודה",
+  "statusOffline": "לא מחובר",
+  "statusUnknown": "לא ידוע",
+  "employeeAppTitle": "Meamore עובד",
+  "employeeSetupTitle": "הגדרת עובד",
+  "employeeIdLabel": "מזהה עובד",
+  "employeeIdDigitsOnlyLabel": "מזהה עובד (ספרות בלבד)",
+  "employeeIdHelp": "הזן את מזהה העובד כדי להמשיך.",
+  "continueAction": "המשך",
+  "logoutAction": "התנתק",
+  "changeEmployeeAction": "החלף עובד",
+  "errorEmployeeIdRequired": "חובה להזין מזהה עובד.",
+  "errorEmployeeIdDigitsOnly": "מזהה עובד חייב להכיל ספרות בלבד.",
+  "errorEmployeeNotFound": "העובד לא נמצא. בדוק את המזהה ונסה שוב.",
+  "errorEmployeeLoadFailed": "טעינת פרטי העובד נכשלה. נסה שוב.",
+  "treatmentTitle": "טיפול",
+  "treatmentNewTitle": "טיפול חדש",
+  "treatmentTypeLabel": "סוג טיפול",
+  "dogNameLabel": "שם הכלב",
+  "dogBreedLabel": "גזע",
+  "dogOwnerNameLabel": "שם הבעלים",
+  "coatConditionLabel": "מצב הפרווה",
+  "coatConditionHelp": "1 = גרוע מאוד, 5 = מושלם",
+  "startTreatmentAction": "התחל טיפול",
+  "finishTreatmentAction": "סיים טיפול",
+  "treatmentInProgress": "טיפול מתבצע",
+  "treatmentSaved": "הטיפול נשמר.",
+  "errorTreatmentTypeRequired": "חובה להזין סוג טיפול.",
+  "errorDogNameRequired": "חובה להזין שם כלב.",
+  "errorDogBreedRequired": "חובה להזין גזע.",
+  "errorOwnerNameRequired": "חובה להזין שם בעלים.",
+  "errorCoatConditionRequired": "חובה לבחור מצב פרווה.",
+  "errorCoatConditionRange": "מצב הפרווה חייב להיות בין 1 ל-5.",
+  "errorStartTreatmentFailed": "התחלת הטיפול נכשלה. נסה שוב.",
+  "errorFinishTreatmentFailed": "סיום הטיפול נכשל. נסה שוב.",
+  "statusBusy": "עסוק",
+  "startedAtValue": "התחיל: {time}",
+  "@startedAtValue": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "endedAtValue": "הסתיים: {time}",
+  "@endedAtValue": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "queueTitle": "תור",
+  "noCustomersInQueue": "אין לקוחות בתור.",
+  "treatedTodayTitle": "הסתיימו היום",
+  "reportsTitle": "דוחות",
+  "@reportsTitle": {
+    "description": "כותרת עמוד: דוחות"
+  },
+  "reportPeriodLabel": "תקופה",
+  "@reportPeriodLabel": {
+    "description": "תווית: תקופה לדוח"
+  },
+  "reportDateLabel": "תאריך",
+  "@reportDateLabel": {
+    "description": "תווית: תאריך לחישוב התקופה"
+  },
+  "reportRangeLabel": "טווח",
+  "@reportRangeLabel": {
+    "description": "תווית: טווח תאריכים בדוח"
+  },
+  "reportAllEmployeesOption": "כל העובדים",
+  "@reportAllEmployeesOption": {
+    "description": "אפשרות: כל העובדים"
+  },
+  "reportGenerateAction": "הצג דוח",
+  "@reportGenerateAction": {
+    "description": "כפתור: הצגת דוח (תצוגה מקדימה)"
+  },
+  "reportGenerateExcelAction": "ייצוא לאקסל",
+  "@reportGenerateExcelAction": {
+    "description": "כפתור: הפקת דוח אקסל"
+  },
+  "reportSaved": "הדוח נשמר.",
+  "@reportSaved": {
+    "description": "הודעה: הדוח נשמר"
+  },
+  "reportPeriodDaily": "יומי",
+  "@reportPeriodDaily": {
+    "description": "אפשרות תקופה: יומי"
+  },
+  "reportPeriodWeekly": "שבועי",
+  "@reportPeriodWeekly": {
+    "description": "אפשרות תקופה: שבועי"
+  },
+  "reportPeriodMonthly": "חודשי",
+  "@reportPeriodMonthly": {
+    "description": "אפשרות תקופה: חודשי"
+  },
+  "reportPeriodQuarterly": "רבעוני",
+  "@reportPeriodQuarterly": {
+    "description": "אפשרות תקופה: רבעוני"
+  },
+  "reportNoTreatmentsInRange": "אין טיפולים בטווח שנבחר.",
+  "@reportNoTreatmentsInRange": {
+    "description": "מצב ריק: אין טיפולים בטווח הדוח"
+  },
+  "doneByMeTitle": "בוצע על ידי",
+  "@doneByMeTitle": {
+    "description": "UI label: doneByMeTitle"
+  },
+  "noBusyTreatments": "אין טיפולים פעילים",
+  "@noBusyTreatments": {
+    "description": "UI label: noBusyTreatments"
+  },
+  "treatmentTimeColumn": "זמן טיפול",
+  "@treatmentTimeColumn": {
+    "description": "UI label: treatmentTimeColumn"
+  },
+  "noTreatedToday": "אין טיפולים שהסתיימו היום",
+  "@noTreatedToday": {
+    "description": "UI label: noTreatedToday"
+  },
+  "noDoneByMeToday": "אין טיפולים שבוצעו על ידי היום",
+  "@noDoneByMeToday": {
+    "description": "UI label: noDoneByMeToday"
+  },
+  "@queueTitle": {
+    "description": "כותרת לשונית: תור"
+  },
+  "@noCustomersInQueue": {
+    "description": "מצב ריק: אין לקוחות בתור"
+  }
+}

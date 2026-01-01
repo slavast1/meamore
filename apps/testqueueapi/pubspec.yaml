@@ -1,0 +1,28 @@
+name: testqueueapi
+description: test rest api
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP requests
+  http: ^1.6.0
+
+  # Date formatting (DateFormat)
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Lints (picked to be compatible with Dart >=3.4)
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

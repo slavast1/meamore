@@ -1,0 +1,207 @@
+{
+  "@@locale": "en",
+  "appTitle": "Barbershop Admin",
+  "employeesTitle": "Employees",
+  "noEmployeesYet": "No employees yet.",
+  "addEmployeeTitle": "Add employee",
+  "employeeStatusTitle": "Employee status",
+  "edit": "Edit",
+  "delete": "Delete",
+  "save": "Save",
+  "cancel": "Cancel",
+  "create": "Create",
+  "clear": "Clear",
+  "followDevice": "Follow device",
+  "english": "English",
+  "hebrew": "Hebrew",
+  "deleteEmployeesTitle": "Delete employees",
+  "deleteEmployeesConfirm": "Delete {count} selected employee(s)?",
+  "@deleteEmployeesConfirm": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "editEmployeeTitle": "Edit employee",
+  "firstNameLabel": "First name",
+  "lastNameLabel": "Last name",
+  "idNumberLabel": "ID number",
+  "phoneLabel": "Phone",
+  "statusLabel": "Status",
+  "activeSessionLabel": "Active session",
+  "startedAtLabel": "Started at",
+  "idNumberDigitsOnlyLabel": "ID number (digits only)",
+  "phoneDigitsOnlyLabel": "Phone (digits only)",
+  "idCannotBeChanged": "Cannot be changed",
+  "noneValue": "(none)",
+  "notAvailableValue": "(n/a)",
+  "noNameValue": "(no name)",
+  "noIdValue": "(no ID)",
+  "noPhoneValue": "(no phone)",
+  "inviteCodeText": "Invite code: {code}",
+  "@inviteCodeText": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "inviteCodeHelp": "Give this code to the employee.",
+  "employeeNotFound": "Employee not found.",
+  "errorFirstLastRequired": "First and last name are required.",
+  "errorIdRequired": "ID number is required.",
+  "errorIdDigitsOnly": "ID number must contain digits only.",
+  "errorPhoneRequired": "Phone is required.",
+  "errorPhoneDigitsOnly": "Phone must contain digits only.",
+  "errorInviteCodeFailed": "Failed to generate invite code. Please try again.",
+  "errorWithMessage": "Error: {message}",
+  "@errorWithMessage": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "statusIdle": "Idle",
+  "statusWorking": "Working",
+  "statusOffline": "Offline",
+  "statusUnknown": "Unknown",
+  "employeeAppTitle": "Meamore Employee",
+  "employeeSetupTitle": "Employee setup",
+  "employeeIdLabel": "Employee ID",
+  "employeeIdDigitsOnlyLabel": "Employee ID (digits only)",
+  "employeeIdHelp": "Enter your employee ID to continue.",
+  "continueAction": "Continue",
+  "logoutAction": "Sign out",
+  "changeEmployeeAction": "Change employee",
+  "errorEmployeeIdRequired": "Employee ID is required.",
+  "errorEmployeeIdDigitsOnly": "Employee ID must contain digits only.",
+  "errorEmployeeNotFound": "Employee not found. Check your ID and try again.",
+  "errorEmployeeLoadFailed": "Failed to load employee. Please try again.",
+  "treatmentTitle": "Treatment",
+  "treatmentNewTitle": "New treatment",
+  "treatmentTypeLabel": "Treatment type",
+  "dogNameLabel": "Dog name",
+  "dogBreedLabel": "Breed",
+  "dogOwnerNameLabel": "Owner name",
+  "coatConditionLabel": "Coat condition",
+  "coatConditionHelp": "1 = awful, 5 = perfect",
+  "startTreatmentAction": "Start treatment",
+  "finishTreatmentAction": "Finish treatment",
+  "treatmentInProgress": "Treatment in progress",
+  "treatmentSaved": "Treatment saved.",
+  "errorTreatmentTypeRequired": "Treatment type is required.",
+  "errorDogNameRequired": "Dog name is required.",
+  "errorDogBreedRequired": "Breed is required.",
+  "errorOwnerNameRequired": "Owner name is required.",
+  "errorCoatConditionRequired": "Coat condition is required.",
+  "errorCoatConditionRange": "Coat condition must be between 1 and 5.",
+  "errorStartTreatmentFailed": "Failed to start treatment. Please try again.",
+  "errorFinishTreatmentFailed": "Failed to finish treatment. Please try again.",
+  "statusBusy": "Busy",
+  "startedAtValue": "Started: {time}",
+  "@startedAtValue": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "endedAtValue": "Ended: {time}",
+  "@endedAtValue": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "reportsTitle": "Reports",
+  "@reportsTitle": {
+    "description": "Page title: reports"
+  },
+  "reportPeriodLabel": "Period",
+  "@reportPeriodLabel": {
+    "description": "UI label: report period"
+  },
+  "reportDateLabel": "Date",
+  "@reportDateLabel": {
+    "description": "UI label: report anchor date"
+  },
+  "reportRangeLabel": "Range",
+  "@reportRangeLabel": {
+    "description": "UI label: report date range"
+  },
+  "reportAllEmployeesOption": "All employees",
+  "@reportAllEmployeesOption": {
+    "description": "Dropdown option: all employees"
+  },
+  "reportGenerateAction": "Generate report",
+  "@reportGenerateAction": {
+    "description": "Button: generate report preview"
+  },
+  "reportGenerateExcelAction": "Export to Excel",
+  "@reportGenerateExcelAction": {
+    "description": "Button: generate Excel report"
+  },
+  "reportNoTreatmentsInRange": "No treatments in the selected range.",
+  "@reportNoTreatmentsInRange": {
+    "description": "Empty state: no treatments found in report range"
+  },
+  "reportSaved": "Report saved.",
+  "@reportSaved": {
+    "description": "Snackbar: report saved"
+  },
+  "reportPeriodDaily": "Daily",
+  "@reportPeriodDaily": {
+    "description": "Report period option: daily"
+  },
+  "reportPeriodWeekly": "Weekly",
+  "@reportPeriodWeekly": {
+    "description": "Report period option: weekly"
+  },
+  "reportPeriodMonthly": "Monthly",
+  "@reportPeriodMonthly": {
+    "description": "Report period option: monthly"
+  },
+  "reportPeriodQuarterly": "Quarterly",
+  "reportNoTreatmentsInRange": "No treatments in selected range.",
+  "@reportNoTreatmentsInRange": {
+    "description": "Empty state: no treatments found for report range"
+  },
+  "@reportPeriodQuarterly": {
+    "description": "Report period option: quarterly"
+  },
+  "treatedTodayTitle": "Finished today",
+  "@treatedTodayTitle": {
+    "description": "UI label: treatedTodayTitle"
+  },
+  "doneByMeTitle": "Done by me",
+  "@doneByMeTitle": {
+    "description": "UI label: doneByMeTitle"
+  },
+  "noBusyTreatments": "No busy treatments",
+  "@noBusyTreatments": {
+    "description": "UI label: noBusyTreatments"
+  },
+  "treatmentTimeColumn": "Treatment time",
+  "@treatmentTimeColumn": {
+    "description": "UI label: treatmentTimeColumn"
+  },
+  "noTreatedToday": "No treated today",
+  "@noTreatedToday": {
+    "description": "UI label: noTreatedToday"
+  },
+  "noDoneByMeToday": "No done by me today",
+  "@noDoneByMeToday": {
+    "description": "UI label: noDoneByMeToday"
+  },
+  "queueTitle": "Queue",
+  "@queueTitle": {
+    "description": "UI title: Queue tab"
+  },
+  "noCustomersInQueue": "No customers in queue.",
+  "@noCustomersInQueue": {
+    "description": "Empty state: queue is empty"
+  }
+}

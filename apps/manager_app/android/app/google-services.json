@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "401676264830",
+    "project_id": "me-amore-employees",
+    "storage_bucket": "me-amore-employees.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401676264830:android:973a783239d1808d723f2f",
+        "android_client_info": {
+          "package_name": "com.meamore.meamore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDTyF0sCye1ZOw2mCQywuilT6sO1zFc3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

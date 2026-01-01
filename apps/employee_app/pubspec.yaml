@@ -1,0 +1,38 @@
+name: employee_app
+description: "me amore employee"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  meamore_shared:
+    path: ../../packages/meamore_shared
+
+  flutter_localizations:
+    sdk: flutter
+
+  intl: ^0.20.0
+  http: ^1.2.2
+  firebase_core: ^4.3.0
+  cloud_firestore: ^6.1.1
+  local_auth: ^3.0.0
+  flutter_native_contact_picker: ^0.0.11
+  shared_preferences: ^2.2.3
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true

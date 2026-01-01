@@ -1,0 +1,84 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+coverage/
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# iOS (Flutter build products)
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/DerivedData/
+
+# macOS
+**/macos/Flutter/ephemeral/
+
+# Windows
+**/windows/flutter/ephemeral/
+
+# Linux
+**/linux/flutter/ephemeral/
+
+# Web
+**/web/.dart_tool/
+
+# Logs / temp
+*.log
+*.tmp
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Junk / backups
+*@ 
+*.bak
+* - Copy.*
+*/lib - Copy/
+~$*
+
+# Copy folders
+apps/**/lib - Copy/
+**/lib - Copy/
+
+
+# Firebase local cache
+**/.firebase/
+
+# Design exports (optional: if you don't want docs in git)
+**/design and analysis/**
+
+# Dart/Flutter
+.dart_tool/
+build/
+coverage/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# iOS pods/build products
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/ephemeral/
+

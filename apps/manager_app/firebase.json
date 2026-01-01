@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "me-amore-employees",
+          "appId": "1:401676264830:android:973a783239d1808d723f2f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "me-amore-employees",
+          "configurations": {
+            "android": "1:401676264830:android:973a783239d1808d723f2f",
+            "ios": "1:401676264830:ios:05e9ce674e43783a723f2f",
+            "web": "1:401676264830:web:6c3c8e48859d8078723f2f"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
